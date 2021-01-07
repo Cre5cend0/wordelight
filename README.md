@@ -2,6 +2,7 @@
 This game is a lot like Scrabble or Words With Friends, if you've played those. Letters are dealt to players, who then construct one or more words out of their letters. Each valid word receives a score, based on the length of the word and the letters in that word.
 
 ###The rules of the game are as follows:
+
 ####Dealing
 - A player is dealt a hand of n letters chosen at random (assume n=7 for now).
 - The player arranges the hand into as many words as they want out of the letters, using each letter at most once.
