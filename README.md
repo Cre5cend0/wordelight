@@ -4,11 +4,13 @@ This game is a lot like Scrabble or Words With Friends, if you've played those. 
 ###The rules of the game are as follows:
 
 ####Dealing
+
 - A player is dealt a hand of n letters chosen at random (assume n=7 for now).
 - The player arranges the hand into as many words as they want out of the letters, using each letter at most once.
 - Some letters may remain unused (these won't be scored).
 
 ####Scoring
+
 - The score for the hand is the sum of the scores for each word formed.
 - The score for a word is the sum of the points for letters in the word, multiplied by the length of the word, plus 50 points if all n letters are used on the first word created.
 - Letters are scored as in Scrabble; A is worth 1, B is worth 3, C is worth 3, D is worth 2, E is worth 1, and so on. 
